@@ -142,7 +142,7 @@ class Transformer(nn.Module):
         out = self.decoder(trg, enc_src, src_mask, trg_mask)
         return out
     
-# Testing the model with random data
+# Testing the model with random data. It works! 
 if __name__ == "__main__":
     
     device = torch.device("cpu")
